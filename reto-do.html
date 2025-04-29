@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Todo App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="reto-do.css" />
+  </head>
+  <body>
+    <div class="main-area">
+      <h1>Todo Today</h1>
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+        <p id="progress-text"></p>
+      </div>
+      <div class="input-area">
+        <input type="text" id="input-box" placeholder="Enter task" />
+        <select id="category-select">
+          <option value="Work">Work</option>
+          <option value="Personal">Personal</option>
+          <option value="Urgent">Urgent</option>
+        </select>
+        <select id="priority-select">
+          <option value="High">High</option>
+          <option value="Medium">Medium</option>
+          <option value="Low">Low</option>
+        </select>
+        
+        <button id="add-button">Add Task</button>
+      </div>
+      <div class="task-items" id="task-items">
+        <div class="item">
+          <input type="checkbox" name="" id="" />
+          <p>Go for cycling</p>
+          <div class="progress"></div>
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="item">
+          <input type="checkbox" name="" id="" />
+          <p>Go for cycling</p>
+          <div class="progress"></div>
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="item">
+          <input type="checkbox" name="" id="" />
+          <p>Go for cycling</p>
+          <div class="progress"></div>
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="item">
+          <input type="checkbox" name="" id="" />
+          <p>Go for cycling</p>
+          <div class="progress"></div>
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+    </div>
+    <script src="reto-do.js"></script>
+  </body>
+</html>
